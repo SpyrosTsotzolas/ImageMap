@@ -19,25 +19,12 @@ import java.util.HashMap;
 
 public class ImageMap extends androidx.appcompat.widget.AppCompatImageView {
 
-    // mMaxSize controls the maximum zoom size as a multiplier of the initial size.
-    // Allowing size to go too large may result in memory problems.
-    //  set this to 1.0f to disable resizing
-    // by default, this is 1.5f
-    private static final float defaultMaxSize = 1.5f;
-
-
     /*
      * containers for the image map areas
      * using SparseArray<Area> instead of HashMap for the sake of performance
      */
     ArrayList<Area> mAreaList = new ArrayList<Area>();
     SparseArray<Area> mIdToArea = new SparseArray<Area>();
-
-    // click handler list
-//    ArrayList<OnImageMapClickedHandler> mCallbackList;
-//
-//    // list of open info bubbles
-//    SparseArray<Bubble> mBubbleMap = new SparseArray<Bubble>();
 
     // changed this from local variable to class field
     protected String mapName;
@@ -127,9 +114,7 @@ public class ImageMap extends androidx.appcompat.widget.AppCompatImageView {
                                     // implementation if needed (see getAreaAttribute)
                                     for (int i = 0; i < xpp.getAttributeCount(); i++) {
                                         String attrName = xpp.getAttributeName(i);
-                                        Log.d("attr", attrName);
                                         String attrVal = xpp.getAttributeValue(null, attrName);
-                                        Log.d("val", attrVal);
                                         a.addValue(attrName, attrVal);
                                     }
                                 }
@@ -329,5 +314,4 @@ public class ImageMap extends androidx.appcompat.widget.AppCompatImageView {
             _y = Math.abs((int) cy);
         }
     }
-    // Log.d("shape", shape);
 }
