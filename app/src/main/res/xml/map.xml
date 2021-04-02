@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maps xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <map name="image-map">
+            <area id="@+id/area1" name="ΓΡΑΜΑΤΕΙΑ" coords="186,19,277,19,264,122,192,120" shape="poly"/>
+            <area id="@+id/area2" name="ΓΡΑΦΕΙΟ ΜΕΤΑΠΤΥΧΙΑΚΩΝ 1" coords="186,234,273,233,269,329,190,329" shape="poly"/>
+            <area id="@+id/area3" name="ΠΕΠ 2" coords="316,24,509,21,562,144,318,147" shape="poly"/>
+            <area id="@+id/area4" name="ΓΡΑΦΕΙΟ ΛΥΚΑ" coords="435,245,475,244,474,327,439,324" shape="poly"/>
+            <area id="@+id/area5" name="ΓΡΑΦΕΙΟ 1" coords="727,22,778,23,775,124,725,123" shape="poly"/>
+            <area id="@+id/area6" name="ΓΡΑΦΕΙΟ 2" coords="806,19,873,20,868,73,807,75" shape="poly"/>
+            <area id="@+id/area7" name="ΓΡΑΦΕΙΟ 3" coords="906,19,937,18,935,78,907,80" shape="poly"/>
+            <area id="@+id/area8" name="ΓΡΑΦΕΙΟ 5" coords="814,114,1042,114,1017,160,822,160" shape="poly"/>
+            <area id="@+id/area9" name="ΓΡΑΦΕΙΟ 4" coords="968,14,1044,14,1042,75,969,79" shape="poly"/>
+            <area id="@+id/area10" name="ΓΡΑΦΕΙΟ 6" coords="1068,22,1134,20,1130,129,1072,129" shape="poly"/>
+            <area id="@+id/area11" name="ΓΡΑΦΕΙΟ ΔΕΠ 3" coords="842,233,875,228,879,333,841,335" shape="poly"/>
+            <area id="@+id/area12" name="ΓΡΑΦΕΙΟ ΔΕΠ 4" coords="907,255,951,254,952,337,910,338" shape="poly"/>
+            <area id="@+id/area13" name="ΓΡΑΦΕΙΟ ΔΕΠ 5" coords="975,240,1016,237,1017,327,972,330" shape="poly"/>
+            <area id="@+id/area14" name="ΓΡΑΦΕΙΟ ΜΕΤΑΠΤΥΧΙΑΚΩΝ 5" coords="1052,240,1126,241,1126,322,1049,323" shape="poly"/>
+            <area id="@+id/area15" name="ΓΡΑΦΕΙΟ ΜΕΤΑΠΤΥΧΙΑΚΩΝ 3" coords="507,299,559,340,595,289" shape="poly"/>
+            <area id="@+id/area16" name="ΓΡΑΦΕΙΟ ΜΕΤΑΠΤΥΧΙΑΚΩΝ 2" coords="537,226,595,228,595,251,541,251" shape="poly"/>
+            <area id="@+id/area17" name="ΓΡΑΦΕΙΟ ΔΕΠ 2" coords="366,251,407,250,406,327,370,329" shape="poly"/>
+            <area id="@+id/area18" name="ΓΡΑΦΕΙΟ ΔΕΠ 1" oords="299,231,339,228,340,330,299,327" shape="poly"/>
+            <area id="@+id/area19" name="ΑΠΟΘΗΚΗ" coords="723,233,780,228,783,250,724,253" shape="poly"/>
+            <area id="@+id/area20" name="ΓΡΑΦΕΙΟ ΜΕΤΑΠΤΥΧΙΑΚΩΝ 4" coords="735,287,741,335,806,306" shape="poly"/>
+    </map>
+</maps>
